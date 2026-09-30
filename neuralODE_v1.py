@@ -32,9 +32,9 @@ from torch.nn import functional as F
 
 
 CSV_PATH = Path(
-    "/Users/4c/Desktop/GHQ/data/loto7_4694_k78.csv"
-    # "/Users/4c/Desktop/GHQ/data/loto7_4694_k78_loto_2969.csv"
-    # "/Users/4c/Desktop/GHQ/data/loto7_4694_k78_loto_plus_1725.csv"
+    "/data/loto7_4694_k78.csv"
+    # "/data/loto7_4694_k78_loto_2969.csv"
+    # "/data/loto7_4694_k78_loto_plus_1725.csv"
 )
 
 SEED = 39
@@ -611,7 +611,7 @@ Završna obuka na svim podacima: 3 epoha.
 Završna epoha: 3/3
 
 FINALNA PREDIKCIJA:
-07 08 09 10 11 16 25
+07 x 09 y 11 z 25
 Rezultat determinističke beam pretrage; globalni maksimum nije garantovan.
 """
 
@@ -632,7 +632,7 @@ Završna obuka na svim podacima: 2 epoha.
 Završna epoha: 2/2
 
 FINALNA PREDIKCIJA:
-03 08 09 10 12 16 22
+03 x 09 y 12 z 22
 Rezultat determinističke beam pretrage; globalni maksimum nije garantovan.
 """
 
@@ -653,6 +653,6 @@ Završna obuka na svim podacima: 1 epoha.
 Završna epoha: 1/1
 
 FINALNA PREDIKCIJA:
-04 05 06 07 11 12 23
+04 x 06 y 11 z 23
 Rezultat determinističke beam pretrage; globalni maksimum nije garantovan.
 """
